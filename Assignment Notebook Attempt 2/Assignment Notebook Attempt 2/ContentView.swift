@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var courses = ["First", "Second ", "Third", "Fourth", "Fifth"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(courses, id: \.self) { course in
+                    Text(course)
+                }
+                .onMove(perform: { indices, newOffset in
+                    courses.move(fromOffsets: indices, toOffset: newOffset)
+                })
+                .onDelete(perform: { indexSet in
+                    courses.remove(atOffsets: indexSet)
+                })
+            }
+            .navigationBarTitle("Assignments", displayMode: .inline)
+            .navigationBarItems(leading: EditButton())
+        }
     }
 }
 
