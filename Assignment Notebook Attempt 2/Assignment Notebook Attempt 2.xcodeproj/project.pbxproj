@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FC944982797208200EEF722 /* Assignment_NotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC944972797208200EEF722 /* Assignment_NotebookApp.swift */; };
-		3FC9449A2797208200EEF722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC944992797208200EEF722 /* ContentView.swift */; };
-		3FC9449C2797208600EEF722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9449B2797208600EEF722 /* Assets.xcassets */; };
-		3FC9449F2797208600EEF722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9449E2797208600EEF722 /* Preview Assets.xcassets */; };
-		3FFD70642813785B00CF24E8 /* AssignmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD70632813785B00CF24E8 /* AssignmentItem.swift */; };
+		3FB7A421282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7A420282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift */; };
+		3FB7A423282C0D7F0088BC00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7A422282C0D7F0088BC00 /* ContentView.swift */; };
+		3FB7A425282C0D820088BC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7A424282C0D820088BC00 /* Assets.xcassets */; };
+		3FB7A428282C0D820088BC00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7A427282C0D820088BC00 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FC944942797208200EEF722 /* Assignment Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FC944972797208200EEF722 /* Assignment_NotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookApp.swift; sourceTree = "<group>"; };
-		3FC944992797208200EEF722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3FC9449B2797208600EEF722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FC9449E2797208600EEF722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3FC944A02797208600EEF722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FFD70632813785B00CF24E8 /* AssignmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentItem.swift; sourceTree = "<group>"; };
+		3FB7A41D282C0D7F0088BC00 /* Assignment Notebook Attempt 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment Notebook Attempt 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB7A420282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_Notebook_Attempt_2App.swift; sourceTree = "<group>"; };
+		3FB7A422282C0D7F0088BC00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FB7A424282C0D820088BC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB7A427282C0D820088BC00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FB7A429282C0D820088BC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FC944912797208200EEF722 /* Frameworks */ = {
+		3FB7A41A282C0D7F0088BC00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,39 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FC9448B2797208200EEF722 = {
+		3FB7A414282C0D7F0088BC00 = {
 			isa = PBXGroup;
 			children = (
-				3FFD70632813785B00CF24E8 /* AssignmentItem.swift */,
-				3FC944962797208200EEF722 /* Assignment Notebook */,
-				3FC944952797208200EEF722 /* Products */,
+				3FB7A41F282C0D7F0088BC00 /* Assignment Notebook Attempt 2 */,
+				3FB7A41E282C0D7F0088BC00 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FC944952797208200EEF722 /* Products */ = {
+		3FB7A41E282C0D7F0088BC00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FC944942797208200EEF722 /* Assignment Notebook.app */,
+				3FB7A41D282C0D7F0088BC00 /* Assignment Notebook Attempt 2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FC944962797208200EEF722 /* Assignment Notebook */ = {
+		3FB7A41F282C0D7F0088BC00 /* Assignment Notebook Attempt 2 */ = {
 			isa = PBXGroup;
 			children = (
-				3FC944972797208200EEF722 /* Assignment_NotebookApp.swift */,
-				3FC944992797208200EEF722 /* ContentView.swift */,
-				3FC9449B2797208600EEF722 /* Assets.xcassets */,
-				3FC944A02797208600EEF722 /* Info.plist */,
-				3FC9449D2797208600EEF722 /* Preview Content */,
+				3FB7A420282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift */,
+				3FB7A422282C0D7F0088BC00 /* ContentView.swift */,
+				3FB7A424282C0D820088BC00 /* Assets.xcassets */,
+				3FB7A429282C0D820088BC00 /* Info.plist */,
+				3FB7A426282C0D820088BC00 /* Preview Content */,
 			);
-			path = "Assignment Notebook";
+			path = "Assignment Notebook Attempt 2";
 			sourceTree = "<group>";
 		};
-		3FC9449D2797208600EEF722 /* Preview Content */ = {
+		3FB7A426282C0D820088BC00 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3FC9449E2797208600EEF722 /* Preview Assets.xcassets */,
+				3FB7A427282C0D820088BC00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FC944932797208200EEF722 /* Assignment Notebook */ = {
+		3FB7A41C282C0D7F0088BC00 /* Assignment Notebook Attempt 2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FC944A32797208600EEF722 /* Build configuration list for PBXNativeTarget "Assignment Notebook" */;
+			buildConfigurationList = 3FB7A42C282C0D820088BC00 /* Build configuration list for PBXNativeTarget "Assignment Notebook Attempt 2" */;
 			buildPhases = (
-				3FC944902797208200EEF722 /* Sources */,
-				3FC944912797208200EEF722 /* Frameworks */,
-				3FC944922797208200EEF722 /* Resources */,
+				3FB7A419282C0D7F0088BC00 /* Sources */,
+				3FB7A41A282C0D7F0088BC00 /* Frameworks */,
+				3FB7A41B282C0D7F0088BC00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Assignment Notebook";
-			productName = "Assignment Notebook";
-			productReference = 3FC944942797208200EEF722 /* Assignment Notebook.app */;
+			name = "Assignment Notebook Attempt 2";
+			productName = "Assignment Notebook Attempt 2";
+			productReference = 3FB7A41D282C0D7F0088BC00 /* Assignment Notebook Attempt 2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FC9448C2797208200EEF722 /* Project object */ = {
+		3FB7A415282C0D7F0088BC00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					3FC944932797208200EEF722 = {
+					3FB7A41C282C0D7F0088BC00 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 3FC9448F2797208200EEF722 /* Build configuration list for PBXProject "Assignment Notebook" */;
+			buildConfigurationList = 3FB7A418282C0D7F0088BC00 /* Build configuration list for PBXProject "Assignment Notebook Attempt 2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,43 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FC9448B2797208200EEF722;
-			productRefGroup = 3FC944952797208200EEF722 /* Products */;
+			mainGroup = 3FB7A414282C0D7F0088BC00;
+			productRefGroup = 3FB7A41E282C0D7F0088BC00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FC944932797208200EEF722 /* Assignment Notebook */,
+				3FB7A41C282C0D7F0088BC00 /* Assignment Notebook Attempt 2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FC944922797208200EEF722 /* Resources */ = {
+		3FB7A41B282C0D7F0088BC00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC9449F2797208600EEF722 /* Preview Assets.xcassets in Resources */,
-				3FC9449C2797208600EEF722 /* Assets.xcassets in Resources */,
+				3FB7A428282C0D820088BC00 /* Preview Assets.xcassets in Resources */,
+				3FB7A425282C0D820088BC00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FC944902797208200EEF722 /* Sources */ = {
+		3FB7A419282C0D7F0088BC00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFD70642813785B00CF24E8 /* AssignmentItem.swift in Sources */,
-				3FC9449A2797208200EEF722 /* ContentView.swift in Sources */,
-				3FC944982797208200EEF722 /* Assignment_NotebookApp.swift in Sources */,
+				3FB7A423282C0D7F0088BC00 /* ContentView.swift in Sources */,
+				3FB7A421282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3FC944A12797208600EEF722 /* Debug */ = {
+		3FB7A42A282C0D820088BC00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		3FC944A22797208600EEF722 /* Release */ = {
+		3FB7A42B282C0D820088BC00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,44 +262,44 @@
 			};
 			name = Release;
 		};
-		3FC944A42797208600EEF722 /* Debug */ = {
+		3FB7A42D282C0D820088BC00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook Attempt 2/Preview Content\"";
 				DEVELOPMENT_TEAM = 9HG6R6W5R5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Assignment Notebook/Info.plist";
+				INFOPLIST_FILE = "Assignment Notebook Attempt 2/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "HutchTech.Assignment-Notebook";
+				PRODUCT_BUNDLE_IDENTIFIER = "HutchTech.Assignment-Notebook-Attempt-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3FC944A52797208600EEF722 /* Release */ = {
+		3FB7A42E282C0D820088BC00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook Attempt 2/Preview Content\"";
 				DEVELOPMENT_TEAM = 9HG6R6W5R5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Assignment Notebook/Info.plist";
+				INFOPLIST_FILE = "Assignment Notebook Attempt 2/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "HutchTech.Assignment-Notebook";
+				PRODUCT_BUNDLE_IDENTIFIER = "HutchTech.Assignment-Notebook-Attempt-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FC9448F2797208200EEF722 /* Build configuration list for PBXProject "Assignment Notebook" */ = {
+		3FB7A418282C0D7F0088BC00 /* Build configuration list for PBXProject "Assignment Notebook Attempt 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FC944A12797208600EEF722 /* Debug */,
-				3FC944A22797208600EEF722 /* Release */,
+				3FB7A42A282C0D820088BC00 /* Debug */,
+				3FB7A42B282C0D820088BC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FC944A32797208600EEF722 /* Build configuration list for PBXNativeTarget "Assignment Notebook" */ = {
+		3FB7A42C282C0D820088BC00 /* Build configuration list for PBXNativeTarget "Assignment Notebook Attempt 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FC944A42797208600EEF722 /* Debug */,
-				3FC944A52797208600EEF722 /* Release */,
+				3FB7A42D282C0D820088BC00 /* Debug */,
+				3FB7A42E282C0D820088BC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FC9448C2797208200EEF722 /* Project object */;
+	rootObject = 3FB7A415282C0D7F0088BC00 /* Project object */;
 }
