@@ -11,6 +11,7 @@
 		3FB7A423282C0D7F0088BC00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7A422282C0D7F0088BC00 /* ContentView.swift */; };
 		3FB7A425282C0D820088BC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7A424282C0D820088BC00 /* Assets.xcassets */; };
 		3FB7A428282C0D820088BC00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7A427282C0D820088BC00 /* Preview Assets.xcassets */; };
+		3FB7A430282C10B10088BC00 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7A42F282C10B10088BC00 /* AssignmentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3FB7A424282C0D820088BC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB7A427282C0D820088BC00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FB7A429282C0D820088BC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB7A42F282C10B10088BC00 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3FB7A420282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift */,
 				3FB7A422282C0D7F0088BC00 /* ContentView.swift */,
+				3FB7A42F282C10B10088BC00 /* AssignmentList.swift */,
 				3FB7A424282C0D820088BC00 /* Assets.xcassets */,
 				3FB7A429282C0D820088BC00 /* Info.plist */,
 				3FB7A426282C0D820088BC00 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB7A430282C10B10088BC00 /* AssignmentList.swift in Sources */,
 				3FB7A423282C0D7F0088BC00 /* ContentView.swift in Sources */,
 				3FB7A421282C0D7F0088BC00 /* Assignment_Notebook_Attempt_2App.swift in Sources */,
 			);
