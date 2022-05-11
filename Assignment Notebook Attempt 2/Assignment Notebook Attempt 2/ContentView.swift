@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @ObservedObject var assignmentList = AssignmentList()
-    
     var body: some View {
         NavigationView {
             List {
