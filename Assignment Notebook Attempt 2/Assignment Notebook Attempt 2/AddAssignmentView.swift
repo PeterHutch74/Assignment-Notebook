@@ -9,25 +9,25 @@ import SwiftUI
 
 struct AddAssignmentView: View {
     @ObservedObject var assignmentList = AssignmentList()
-    @State private var priority = ""
+    @State private var courseTitle = ""
     @State private var description = ""
     @State private var dueDate = Date()
     @Environment(\.presentationMode) var presentationMode
-    static let priorities = ["High", "Medium", "Low"]
+    static let priorities = ["Math", "Engineering", "Mobile Apps", "Physics", "Civics", "Film"]
     var body: some View {
         NavigationView {
             Form {
-                Picker("Priority", selection: $priority) {
-                    ForEach(Self.priorities, id: \.self) { priority in
-                        Text(priority)
+                Picker("Course Title", selection: $courseTitle) {
+                    ForEach(Self.priorities, id: \.self) { courseTitle in
+                        Text(courseTitle)
                     }
                 }
                 TextField("Description", text: $description)
                 DatePicker("Due Date", selection: $dueDate, displayedComponents: .date)
             } .navigationBarTitle("Add Assignment", displayMode: .inline)
             .navigationBarItems(trailing: Button("Save") {
-                if priority.count > 0 && description.count > 0 {
-                    let item = Assignment(id: UUID(), priority: priority,
+                if courseTitle.count > 0 && description.count > 0 {
+                    let item = Assignment(id: UUID(), courseTitle: courseTitle,
                                         description: description, dueDate: dueDate)
                     assignmentList.items.append(item)
                     presentationMode.wrappedValue.dismiss()
